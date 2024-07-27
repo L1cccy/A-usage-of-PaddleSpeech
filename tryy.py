@@ -14,7 +14,7 @@ import pyaudio
 import wave
 
 # Environment setup
-os.environ['EB_AGENT_ACCESS_TOKEN'] = 'ed81c466fc077dc5ecf8a84bd4030811b6021be5'  # 为连接文心引擎提供access_token
+os.environ['EB_AGENT_ACCESS_TOKEN'] = '####'  # 连接文心引擎的access_token，需要自己填写
 os.environ['EB_AGENT_LOGGING_LEVEL'] = 'info'
 
 
